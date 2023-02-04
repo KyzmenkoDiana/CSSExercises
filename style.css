@@ -1,26 +1,29 @@
-#elem1 {
-    color: red;
-    font-family: Arial;
+/*1*/
+/* 
+#elem h2 {
+    color: blueviolet;
+    font-size: 35px;
 }
+*/
 
-#elem2 {
-    color: green;
-    font-family: Arial;
-}
-
-#elem3 {
+/*2*/
+/*
+#elem .text {
     color: blue;
-    font-family: Arial;
+    font-size: 35px;
 }
+*/
 
-.large {
-    font-size: 30px;
+/*3*/
+/*
+#elem p.text {
+    color: blue;
+    font-size: 35px;
 }
+*/
 
-.small {
-    font-size: 20px;
-}
-
-.bool {
-    font-size: 15px;
+/*4*/
+#elem li.text {
+    color: blue;
+    font-size: 35px;
 }
