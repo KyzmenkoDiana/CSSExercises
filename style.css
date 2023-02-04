@@ -1,40 +1,67 @@
- /*1*/
- /*говорится о том что ссылка будет красным цветом и неподчеркнутой*/
- a {
-     color: red;
- }
+/*1*/
+/*
+li:first-child {
+    color: red;
+}
 
- a:hover {
-     text-decoration: none;
- }
+/*2*/
+/*
+li:last-child {
+    color: green;
+}
 
- /*2*/
- /*говорится о том что ссылка класса zzz будет красным цветом и неподчеркнутой*/
- a.zzz {
-     color: red;
- }
+/*3*/
+/*
+li:first-child {
+    color: red;
+}
 
- a.zzz:hover {
-     text-decoration: none;
- }
+li:last-child {
+    color: green;
+}
+/*4*/
+/*
+li:nth-child(3) {
+    color: red;
+}
+/*5*/
+/*
+li:nth-child(even) {
+    color: red;
+}
 
- /*3*/
- /*говорится о том что ссылка класса zzz c id block будет красным цветом и неподчеркнутой*/
+li:nth-child(odd) {
+    color: green;
+}
+/*6*/
+/*
+li:nth-child(3n) {
+    color: red;
+}
+/*7*/
+/*
+li:nth-child(4) {
+    color: red;
+}
+/*8*/
+/*
+li:only-child {
+    color: red;
+}
 
- #block a.zzz {
-     color: red;
- }
+ul {
+    margin-bottom: 10px;
+}
+/*9*/
 
- #block a.zzz:hover {
-     text-decoration: none;
- }
+li:empty {
+    border: 1px solid blue;
+    list-style-type: circle;
+    color: blue;
+    width: 100px;
+}
 
- /*4*/
- /*говорится о том что ссылка класса zzz в классе block  будет красным цветом и неподчеркнутой*/
- .block a.zzz {
-     color: red;
- }
-
- .block a.zzz:hover {
-     text-decoration: none;
- }
+li.empty {
+    border: 1px solid red;
+    margin: 10px;
+}
