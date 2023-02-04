@@ -1,116 +1,62 @@
 /*1*/
-/*Выберет элемент,одновременно имеющий класс bbb и класс zzz*/
 /*
-.bbb.zzz {
-    color: red;
-    font-size: 25;
+#block h1,
+#block h2 {
+    text-align: center;
+    color: blue;
 } */
 
 /*2*/
-/*выберет заголовок h2,
-одновременно имеющий класс bbb и класс zzz*/
 /*
-h2.bbb.zzz {
-    color: red;
+#block h1,
+#block h2 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+#block h2 {
+    font-size: 20px;
 } */
 
 /*3*/
-/*выберет элементы с классом bbb,
-находящийся внутри элемента с id,
-равным elem*/
 /*
-#elem .bbb {
+#block h1,
+#block h2,
+#block h3 {
+    text-align: center;
+}
+
+#block h2 {
+    color: blue;
+}
+
+#block h3 {
+    font-size: 16px;
     color: red;
 } */
 
 /*4*/
-/*выберет элементы с классом bbb zzz,
-находящийся внутри элемента с id,
-равным elem*/
 /*
-#elem .bbb.zzz {
-    color: red;
+#block h1.eee,
+#block h2.zzz {
+    text-align: center;
+    font-size: 30px;
+    color: blue
+}
+
+#block h2.zzz {
+    font-size: 20px;
 } */
 
 /*5*/
-/*Нечего не выберет так как не распознает код. Он должен быть таким: #elem h2.bbb*/
 /*
-h2#elem .bbb {
-    color: red;
+.xxx .kkk, .eee h2.zzz,#eee h2 {
+    text-align: center;
 } */
 
 /*6*/
-/*Выберет h2 с классом zzz*/
-/*
-h2.zzz {
-    color: red;
-} */
-
-/*7*/
-/*Нечего не выберет так как не правильно записан код*/
-/*
-h2 .zzz {
-    color: red;
-} */
-
-/*8*/
-/*Выберет строку где есть классы bbb и zzz*/
-/*
-.bbb.zzz {
-    color: red;
-} */
-
-/*9*/
-/*элемент с классом zzz,
-находящийся внутри класса bbb.*/
-/*
-.bbb .zzz {
-    color: red;
-} */
-
-/*10*/
-/*Выберет элемент с тремя классами одновременно*/
-/*
-.bbb.zzz.xxx {
-    color: red;
-} */
-
-/*11*/
-/*элемент с классом zzz и xxx,
-находящийся внутри класса bbb. */
-/*
-.bbb .zzz.xxx {
-    color: red;
-} */
-
-/*12*/
-/*элемент с классом xxx,
-находящийся внутри класса bbb и zzz.*/
-/*
-.bbb.zzz .xxx {
-    color: red;
-} */
-
-/*13*/
-/*элемент с классом xxx,
-находящийся внутри класса zzz, который будет находиться в классе bbb.*/
-/*
-.bbb .zzz .xxx {
-    color: red;
-} */
-
-/*14*/
-/*выберет элементы с id,
-равным elem.bbb */
-/*
-#elem.bbb {
-    color: red;
-} */
-
-/*15*/
-/*выберет элементы с классом bbb,
-находящийся внутри элемента с id,
-равным elem*/
-#elem .bbb {
-    color: red;
+.eee h2.zzz,
+.xxx {
+    text-align: center;
 }
