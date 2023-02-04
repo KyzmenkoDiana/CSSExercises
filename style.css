@@ -1,28 +1,14 @@
 /*1*/
 /*
-p:first-of-type {
+li:not(.elem) {
     color: blue;
-}
-
-h2:last-of-type {
-    color: red;
 }
 /*2*/
 /*
-h2:nth-of-type(3) {
-    color: red;
-}
-
-h2:nth-last-of-type(2) {
-    color: red;
+li:not(:first-child) {
+    color: blue;
 }
 /*3*/
-div {
-    border: 1px dashed black;
-    padding: 15px;
-    margin-bottom: 10px;
-}
-
-h2:only-of-type {
-    color: red;
+li:not(:first-child, :last-child) {
+    color: blue;
 }
