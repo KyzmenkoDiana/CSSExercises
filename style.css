@@ -1,9 +1,16 @@
-/* .success {
-    color: green;
+#elem1 {
+    color: red;
+    font-family: Arial;
 }
 
-.error {
-    color: red;
+#elem2 {
+    color: green;
+    font-family: Arial;
+}
+
+#elem3 {
+    color: blue;
+    font-family: Arial;
 }
 
 .large {
@@ -12,8 +19,8 @@
 
 .small {
     font-size: 20px;
-} */
-.avocado {
-    color: blueviolet;
-    font-size: 20px;
+}
+
+.bool {
+    font-size: 15px;
 }
