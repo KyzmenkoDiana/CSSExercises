@@ -1,67 +1,28 @@
 /*1*/
 /*
-li:first-child {
-    color: red;
+p:first-of-type {
+    color: blue;
 }
 
+h2:last-of-type {
+    color: red;
+}
 /*2*/
 /*
-li:last-child {
-    color: green;
+h2:nth-of-type(3) {
+    color: red;
 }
 
+h2:nth-last-of-type(2) {
+    color: red;
+}
 /*3*/
-/*
-li:first-child {
-    color: red;
-}
-
-li:last-child {
-    color: green;
-}
-/*4*/
-/*
-li:nth-child(3) {
-    color: red;
-}
-/*5*/
-/*
-li:nth-child(even) {
-    color: red;
-}
-
-li:nth-child(odd) {
-    color: green;
-}
-/*6*/
-/*
-li:nth-child(3n) {
-    color: red;
-}
-/*7*/
-/*
-li:nth-child(4) {
-    color: red;
-}
-/*8*/
-/*
-li:only-child {
-    color: red;
-}
-
-ul {
+div {
+    border: 1px dashed black;
+    padding: 15px;
     margin-bottom: 10px;
 }
-/*9*/
 
-li:empty {
-    border: 1px solid blue;
-    list-style-type: circle;
-    color: blue;
-    width: 100px;
-}
-
-li.empty {
-    border: 1px solid red;
-    margin: 10px;
+h2:only-of-type {
+    color: red;
 }
