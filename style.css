@@ -1,18 +1,40 @@
- a:link {
-     color: blue;
-     text-decoration: none;
- }
-
- a:visited {
-     color: blue;
-     text-decoration: none;
- }
-
- a:hover {
+ /*1*/
+ /*говорится о том что ссылка будет красным цветом и неподчеркнутой*/
+ a {
      color: red;
  }
 
- a:active {
-     color: blue;
+ a:hover {
+     text-decoration: none;
+ }
+
+ /*2*/
+ /*говорится о том что ссылка класса zzz будет красным цветом и неподчеркнутой*/
+ a.zzz {
+     color: red;
+ }
+
+ a.zzz:hover {
+     text-decoration: none;
+ }
+
+ /*3*/
+ /*говорится о том что ссылка класса zzz c id block будет красным цветом и неподчеркнутой*/
+
+ #block a.zzz {
+     color: red;
+ }
+
+ #block a.zzz:hover {
+     text-decoration: none;
+ }
+
+ /*4*/
+ /*говорится о том что ссылка класса zzz в классе block  будет красным цветом и неподчеркнутой*/
+ .block a.zzz {
+     color: red;
+ }
+
+ .block a.zzz:hover {
      text-decoration: none;
  }
