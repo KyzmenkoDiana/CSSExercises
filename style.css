@@ -1,35 +1,27 @@
 /*1*/
 #elem {
-    border-width: 3px;
-    border-style: solid;
-    border-color: blue;
+    border: 3px solid blue;
     width: 300px;
     height: 100px;
 }
 
 /*2*/
 #elem {
-    border-width: 1px;
-    border-style: dotted;
-    border-color: red;
+    border: 1px dotted red;
     width: 300px;
     height: 100px;
 }
 
 /*3*/
 #elem {
-    border-width: 1px;
-    border-style: dashed;
-    border-color: brown;
+    border-width: 1px dashed brown;
     width: 300px;
     height: 100px;
 }
 
 /*4*/
 #elem {
-    border-width: 5px;
-    border-style: double;
-    border-color: green;
+    border-width: 5px double green;
     width: 300px;
     height: 100px;
 }
