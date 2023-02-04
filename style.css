@@ -1,39 +1,18 @@
-g[title] {
-    color: blue;
-    font-size: 20px;
-}
+ a:link {
+     color: blue;
+     text-decoration: none;
+ }
 
-p[title] {
-    color: red;
-    font-size: 20px;
-}
+ a:visited {
+     color: blue;
+     text-decoration: none;
+ }
 
-p[title=elem] {
-    color: blue
-}
+ a:hover {
+     color: red;
+ }
 
-a[href^="http://"] {
-    color: green;
-}
-
-a[href*=".html"] {
-    color: red;
-}
-
-p[title~=hi] {
-    color: firebrick
-}
-
-[class|="top-top"] {
-    color: darkorchid
-}
-
-.Avocado {
-    padding: 10px;
-    margin: 10px;
-    background: orchid;
-    color: blue;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 30px;
-}
+ a:active {
+     color: blue;
+     text-decoration: none;
+ }
