@@ -1,119 +1,23 @@
 /*1*/
+/*Размер шрифта будет 30px так как вторая запись переопределит первую*/
 /*
-#elem p {
-    color: blue;
+h2 {
+    font-size: 20px;
+}
+
+h2 {
     font-size: 30px;
-} */
+}*/
 
 /*2*/
-/*
-#elem h2 {
+/*Цвет будет красный,так как вторая запись переопределит первую, размер 20px и шрифт-italic  */
+
+h2 {
+    font-size: 20px;
     color: blue;
-    font-size: 30px;
-} */
+}
 
-/*3*/
-/*
-#block p {
-    color: blueviolet;
-    font-size: 30px;
-} */
-
-/*4*/
-/*
-#block h2 {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*5*/
-/*
-.bbb {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*6*/
-/*
-#block .bbb {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*7*/
-/*
-#block p.bbb {
-    color: blueviolet;
-    font-size: 30px;
-} */
-
-/*8*/
-/*
-h2.bbb {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*9*/
-/*
-#block p.bbb {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*10*/
-/*
-.bbb,
-.xxx {
-    color: blueviolet;
-    font-size: 30px;
-} */
-
-/*11*/
-/*
-p.bbb,
-h2.xxx {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*12*/
-/*
-#block p.bbb,
-#block p.xxx {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*13*/
-/*
-.fff {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*14*/
-/*
-p.fff {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*15*/
-/*
-p.fff {
-    color: blue;
-    font-size: 30px;
-} */
-/*16*/
-/*
-.fff .bbb {
-    color: blue;
-    font-size: 30px;
-} */
-
-/*17*/
-.fff h2.bbb {
-    color: blue;
-    font-size: 30px;
+h2 {
+    font-style: italic;
+    color: red;
 }
