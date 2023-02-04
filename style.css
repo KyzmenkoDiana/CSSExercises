@@ -1,14 +1,17 @@
 /*1*/
-/*
-li:not(.elem) {
-    color: blue;
+#elem {
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+
 }
+
 /*2*/
-/*
-li:not(:first-child) {
-    color: blue;
-}
-/*3*/
-li:not(:first-child, :last-child) {
-    color: blue;
+#eleml {
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: rebeccapurple;
+
 }
