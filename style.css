@@ -1,71 +1,23 @@
 /*1*/
 /*
-#diana {
-    width: 300px;
-    border: 1px solid red;
+#elem {
+    padding: 14px;
+    width: 400px;
+    border: 2px solid red;
+    text-align: justify;
 }
 
-#kyzmenko {
-    height: 100px;
-    border: 1px dashed blue;
-    margin: 30px 70px 100px 20px;
-}
 /*2*/
-/*
-#diana {
-    width: 300px;
-    border: 1px solid red;
+#elem {
+    padding: 14px;
+    width: 400px;
+    border: 2px solid red;
+    text-align: justify;
 }
 
-#kyzmenko {
-    height: 100px;
-    border: 1px solid green;
-    margin: 70px 30px;
-}
-/*3*/
-/*
 #diana {
-    width: 300px;
-    border: 1px solid red;
-}
-
-#kyzmenko {
-    height: 100px;
-    border: 1px dashed blue;
-    margin: 130px 50px;
-}
-/*4*/
-/*
-#diana {
+    padding: 20px;
     width: 200px;
-    border: 1px solid red;
-}
-
-#kyzmenko {
-    height: 50px;
-    border: 1px dashed blue;
-    margin: 30px 35px;
-}
-/*5*/
-/*
-#diana {
-    width: 300px;
-    border: 1px solid red;
-}
-
-#kyzmenko {
-    height: 100px;
-    border: 1px dashed blue;
-    margin: 150px 60px 40px;
-}
-/*6*/
-#diana {
-    width: 350px;
-    border: 1px solid red;
-}
-
-#kyzmenko {
-    height: 50px;
-    border: 1px dashed green;
-    margin: 20px 70px 40px;
+    border: 2px solid red;
+    text-align: justify;
 }
