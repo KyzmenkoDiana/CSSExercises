@@ -1,10 +1,29 @@
+/*1*/
+/*
 #elem {
-    padding-top: 40px;
+    padding-top: 10px;
     padding-right: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     padding-left: 30px;
 
-    width: 150px;
+    width: 250px;
+    border: 1px solid blue;
+    text-align: justify;
+}
+/*2*/
+/*
+#elem {
+    padding: 30px 20px;
+
+    width: 250px;
+    border: 1px solid blue;
+    text-align: justify;
+}
+/*3*/
+#elem {
+    padding: 10px 20px 40px;
+
+    width: 250px;
     border: 1px solid blue;
     text-align: justify;
 }
