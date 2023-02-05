@@ -1,16 +1,47 @@
+/*1*/
+/*
 #diana {
     width: 300px;
-    border: 1px dashed red;
+    border: 1px solid red;
 }
 
 #kyzmenko {
-    height: 200px;
-    border: 1px dashed blue;
-    margin: 30px;
+    margin-top: 70px;
+    margin-right: 60px;
+    margin-bottom: 130px;
+    margin-left: 60px;
+
+    height: 150px;
+    border: 1px solid green;
+}
+/*2*/
+/*
+#diana {
+    width: 300px;
+    border: 1px solid red;
 }
 
-#dmitrievna {
+#kyzmenko {
+    margin-top: 70px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    margin-left: 30px;
+
     height: 150px;
-    border: 1px solid brown;
-    margin: 30px;
+    border: 1px solid green;
+}
+/*3*/
+#diana {
+    width: 300px;
+    border: 1px solid red;
+}
+
+#kyzmenko {
+    margin-top: 30px;
+    margin-right: 90px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+
+    height: 200px;
+    border: 1px solid green;
 }
