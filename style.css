@@ -1,37 +1,16 @@
 /*1*/
 /*
-div {
+span {
     width: 100px;
     height: 100px;
-    border: 1px solid blue;
+    border: 2px solid blue;
 }
-
 /*2*/
 /*
-div {
-    height: 100px;
+span {
     border: 1px solid blue;
 }
-
 /*3*/
-/*
-div {
-    width: 100px;
-    border: 1px solid blue;
-}
-
-/*4*/
-/*
-div {
-    width: 100px;
-    border: 1px solid blue;
-}
-
-/*5*/
-/*
-div {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-    border: 1px solid blue;
+span {
+    border: 2px solid blue;
 }
