@@ -1,29 +1,15 @@
-/*1*/
-/*
-#elem {
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-
-    width: 250px;
-    border: 1px solid blue;
-    text-align: justify;
+#elem1 {
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    margin-bottom: 20px;
 }
-/*2*/
-/*
-#elem {
-    padding: 30px 20px;
 
-    width: 250px;
-    border: 1px solid blue;
-    text-align: justify;
-}
-/*3*/
-#elem {
-    padding: 10px 20px 40px;
-
-    width: 250px;
-    border: 1px solid blue;
-    text-align: justify;
+#elem2 {
+    width: 150px;
+    height: 150px;
+    background: blue;
+    padding: 25px;
+    border: 5px solid black;
+    box-sizing: border-box;
 }
