@@ -3,41 +3,79 @@
 .parent {
     text-align: center;
     padding: 10px 0;
-    border: 3px solid red;
+    border: 1px solid red;
 }
 
-.djulietta {
-    border: 2px solid blue;
+.diana {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green;
+    margin: 5px;
 }
-
-.vector {
-    border: 2px solid blueviolet;
-}
-
-.flaffi {
-    border: 2px solid green;
-}
-
 /*2*/
 /*
 .parent {
     text-align: right;
     padding: 10px 0;
-    border: 3px solid red;
+    border: 1px solid red;
 }
 
-.vector {
-    border: 2px solid blue;
+.diana {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green;
 }
 
 /*3*/
+/*
 .parent {
-    padding: 10px 10px 10px 10px;
-    border: 3px solid red;
     text-align: right;
+    padding: 10px 0;
+    padding-right: 10px;
+    border: 1px solid red;
 }
 
-.vector {
-    border: 2px solid blue;
+.diana {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green;
+}
+/*4*/
+/*
+.parent {
+    text-align: right;
+    padding: 10px 0;
+    border: 1px solid red;
+}
 
+.diana {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green;
+    margin-right: 10px;
+}
+/*5*/
+/*
+.parent {
+    text-align: right;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+.diana {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green;
+}
+/*6*/
+.parent {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+.diana {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green;
 }
