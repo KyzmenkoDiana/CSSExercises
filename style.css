@@ -1,17 +1,16 @@
-/*1*/
-ol {
-    list-style-type: lower-alpha;
-    color: blue;
+#diana {
+    width: 300px;
+    border: 1px dashed red;
 }
 
-/*2*/
-ol {
-    list-style-type: lower-greek;
-    color: blue;
+#kyzmenko {
+    height: 200px;
+    border: 1px dashed blue;
+    margin: 30px;
 }
 
-/*3*/
-ol {
-    list-style-type: upper-alpha;
-    color: blue;
+#dmitrievna {
+    height: 150px;
+    border: 1px solid brown;
+    margin: 30px;
 }
