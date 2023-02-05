@@ -1,6 +1,24 @@
-div {
-    width: 100px;
+.parent {
+    border: 3px solid red;
+}
+
+.djuliet {
     height: 100px;
+    width: 100px;
     border: 2px solid blue;
-    display: inline-block;
+    margin: 10px auto;
+}
+
+.flaffi {
+    height: 100px;
+    width: 150px;
+    border: 2px solid red;
+    margin: 10px auto;
+}
+
+.vector {
+    height: 100px;
+    width: 200px;
+    border: 2px solid green;
+    margin: 10px auto;
 }
