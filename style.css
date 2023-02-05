@@ -6,13 +6,9 @@
 }
 
 #kyzmenko {
-    margin-top: 70px;
-    margin-right: 60px;
-    margin-bottom: 130px;
-    margin-left: 60px;
-
-    height: 150px;
-    border: 1px solid green;
+    height: 100px;
+    border: 1px dashed blue;
+    margin: 30px 70px 100px 20px;
 }
 /*2*/
 /*
@@ -22,26 +18,54 @@
 }
 
 #kyzmenko {
-    margin-top: 70px;
-    margin-right: 30px;
-    margin-bottom: 70px;
-    margin-left: 30px;
-
-    height: 150px;
+    height: 100px;
     border: 1px solid green;
+    margin: 70px 30px;
 }
 /*3*/
+/*
 #diana {
     width: 300px;
     border: 1px solid red;
 }
 
 #kyzmenko {
-    margin-top: 30px;
-    margin-right: 90px;
-    margin-bottom: 30px;
-    margin-left: 90px;
+    height: 100px;
+    border: 1px dashed blue;
+    margin: 130px 50px;
+}
+/*4*/
+/*
+#diana {
+    width: 200px;
+    border: 1px solid red;
+}
 
-    height: 200px;
-    border: 1px solid green;
+#kyzmenko {
+    height: 50px;
+    border: 1px dashed blue;
+    margin: 30px 35px;
+}
+/*5*/
+/*
+#diana {
+    width: 300px;
+    border: 1px solid red;
+}
+
+#kyzmenko {
+    height: 100px;
+    border: 1px dashed blue;
+    margin: 150px 60px 40px;
+}
+/*6*/
+#diana {
+    width: 350px;
+    border: 1px solid red;
+}
+
+#kyzmenko {
+    height: 50px;
+    border: 1px dashed green;
+    margin: 20px 70px 40px;
 }
