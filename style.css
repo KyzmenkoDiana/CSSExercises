@@ -1,23 +1,10 @@
-/*1*/
-/*
 #elem {
-    padding: 14px;
-    width: 400px;
-    border: 2px solid red;
-    text-align: justify;
-}
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-left: 30px;
 
-/*2*/
-#elem {
-    padding: 14px;
-    width: 400px;
-    border: 2px solid red;
-    text-align: justify;
-}
-
-#diana {
-    padding: 20px;
-    width: 200px;
-    border: 2px solid red;
+    width: 150px;
+    border: 1px solid blue;
     text-align: justify;
 }
