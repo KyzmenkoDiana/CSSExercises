@@ -1,59 +1,110 @@
 /*1*/
-.parent {
-    display: flex;
-    justify-content: center;
+/*
+#diana1 {
+    width: 100px;
+    height: 100px;
     border: 2px solid red;
-    height: 300px;
-    width: 600px;
 }
 
-.diana {
-    width: 50px;
-    height: 50px;
+#diana2 {
+    position: absolute;
+    top: 130px;
+    left: 140px;
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}
+
+#diana3 {
+    position: absolute;
+    top: 260px;
+    left: 280px;
+
+    width: 100px;
+    height: 100px;
     border: 2px solid blue;
 }
-
 /*2*/
-.parent {
-    display: flex;
-    justify-content: space-between;
+/*
+#diana1 {
+    width: 100px;
+    height: 100px;
     border: 2px solid red;
-    height: 300px;
-    width: 600px;
 }
 
-.diana {
-    width: 50px;
-    height: 50px;
+#diana2 {
+    position: absolute;
+    top: 10px;
+    left: 140px;
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}
+
+#diana3 {
+    position: absolute;
+    top: 10px;
+    left: 280px;
+
+    width: 100px;
+    height: 100px;
     border: 2px solid blue;
 }
-
 /*3*/
-.parent {
-    display: flex;
-    justify-content: space-around;
+/*
+#diana1 {
+    width: 100px;
+    height: 100px;
     border: 2px solid red;
-    height: 300px;
-    width: 600px;
 }
 
-.diana {
-    width: 50px;
-    height: 50px;
+#diana2 {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}
+
+#diana3 {
+    position: absolute;
+    top: 150px;
+    left: 140px;
+
+    width: 100px;
+    height: 100px;
     border: 2px solid blue;
 }
-
 /*4*/
-.parent {
-    display: flex;
-    justify-content: space-evenly;
-    border: 2px solid red;
-    height: 300px;
-    width: 600px;
+#diana1 {
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    background: rgb(68, 190, 119);
 }
 
-.diana {
-    width: 50px;
-    height: 50px;
-    border: 2px solid blue;
+#diana2 {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    background: rgb(114, 79, 241);
+}
+
+#diana3 {
+    position: absolute;
+    top: 150px;
+    left: 140px;
+
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    background: rgb(240, 78, 178);
 }
