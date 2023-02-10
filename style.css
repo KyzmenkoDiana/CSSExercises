@@ -1,5 +1,6 @@
 div {
-    width: 400px;
+    width: 600px;
+    border: 2px solid blue;
     text-align: justify;
 }
 
@@ -13,4 +14,11 @@ div {
     float: right;
     width: 300px;
     height: 250px;
+}
+
+.diana3 {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
 }
