@@ -1,33 +1,217 @@
 /*1*/
-#diana1 {
+/*
+#parent {
     position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+#diana {
+    position: absolute;
+    top: 100px;
+    left: 90px;
+
     width: 100px;
     height: 100px;
-    margin-bottom: 20px;
-    background: rgb(247, 66, 111);
+    border: 2px solid green;
+}
+
+/*2*/
+/*
+#parent {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px;
+    background: rgb(231, 53, 151);
+}
+
+#diana1 {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+
+    width: 100px;
+    height: 100px;
+    border: 2px;
+    background: rgb(113, 217, 248);
 }
 
 #diana2 {
-    position: relative;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+
     width: 100px;
     height: 100px;
-    margin-bottom: 100px;
-    top: -40px;
-    left: 50px;
-    background: rgb(75, 231, 109);
+    border: 2px;
+    background: rgb(113, 217, 248);
+}
+/*3*/
+/*
+#parent {
+    position: relative;
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid;
+    background: rgb(77, 248, 220);
+
+}
+
+#diana1 {
+    border-radius: 70px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+
+    width: 120px;
+    height: 120px;
+    border: 2px solid;
+    background: rgb(236, 5, 5);
+}
+
+#diana2 {
+    border-radius: 70px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+
+    width: 120px;
+    height: 120px;
+    border: 2px solid;
+    background: rgb(255, 240, 27);
 }
 
 #diana3 {
+    border-radius: 70px;
+    position: absolute;
+    top: 350px;
+    left: 40px;
+
+    width: 120px;
+    height: 120px;
+    border: 2px solid;
+    background: rgb(11, 124, 7);
+}
+/*4*/
+/*
+#parent {
+    border-radius: 250px;
     position: relative;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 100px;
-    top: -160px;
-    left: 100px;
-    background: rgb(164, 253, 48);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px;
+    background: rgb(240, 231, 114);
+
 }
 
-.diana4 {
-    color: blueviolet;
-    font-size: 20px;
+#diana1 {
+    border-radius: 60px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    background: rgb(89, 230, 143);
+}
+
+#diana2 {
+    border-radius: 60px;
+    position: absolute;
+    top: 90px;
+    left: 290px;
+
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    background: rgb(89, 230, 143);
+}
+
+#diana3 {
+    position: absolute;
+    margin: 20px;
+    top: 200px;
+    left: 190px;
+
+    width: 60px;
+    height: 60px;
+    border: 2px;
+    background: rgb(37, 37, 37);
+}
+
+#diana4 {
+    position: absolute;
+    top: 350px;
+    left: 120px;
+    margin: 20px;
+
+    width: 200px;
+    height: 20px;
+    border: 2px;
+    background: rgb(184, 18, 13);
+}
+/*5*/
+#parent {
+    border-radius: 250px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px;
+    background: rgb(240, 231, 114);
+
+}
+
+#diana1 {
+    border-radius: 60px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    background: rgb(89, 230, 143);
+}
+
+#diana2 {
+    border-radius: 60px;
+    position: absolute;
+    top: 90px;
+    left: 290px;
+
+    width: 90px;
+    height: 90px;
+    border: 2px;
+    background: rgb(89, 230, 143);
+}
+
+#diana3 {
+    border-radius: 60px;
+    position: absolute;
+    margin: 20px;
+    top: 190px;
+    left: 180px;
+
+    width: 80px;
+    height: 80px;
+    border: 2px;
+    background: rgb(37, 37, 37);
+}
+
+#diana4 {
+    position: relative;
+    top: 330px;
+    left: 100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0 5px green;
 }
