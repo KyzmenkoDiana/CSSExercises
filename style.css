@@ -1,20 +1,96 @@
-#diana {
-    display: block;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 1350px;
-    height: 50px;
-    background: rgb(255, 88, 227);
+/*1*/
+#diana1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 100px;
+    height: 100px;
+    background: #ff8888;
 }
 
-#content {
-    padding: 20px;
-    margin: 75px auto;
-    width: 600px;
-    text-align: justify;
-    font: 16px Arial;
-    border: 2px solid blue;
+#diana2 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    background: #7e89eb;
+    z-index: 2;
+}
+
+#diana3 {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+/*2*/
+#diana1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 100px;
+    height: 100px;
+    background: #ff8888;
+    z-index: 3;
+}
+
+#diana2 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    background: #7e89eb;
+    z-index: 2;
+}
+
+#diana3 {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+/*3*/
+#diana1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    width: 100px;
+    height: 100px;
+    background: #ff8888;
+}
+
+#diana2 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    background: #7e89eb;
+    z-index: -1;
+}
+
+#diana3 {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+
+    width: 100px;
+    height: 100px;
+    background: red;
 }
