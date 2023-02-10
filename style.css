@@ -8,12 +8,16 @@ div {
     float: left;
     width: 300px;
     height: 250px;
+    float: left;
+    opacity: 0.5;
 }
 
 .diana2 {
     float: right;
     width: 300px;
     height: 250px;
+    float: right;
+    opacity: 0.5;
 }
 
 .diana3 {
@@ -21,4 +25,11 @@ div {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
+}
+
+p {
+    margin-left: 30px;
+    border: 1px solid black;
+    margin-right: 30px;
+    border: 1px solid black;
 }
