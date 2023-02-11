@@ -1,32 +1,79 @@
 /*1*/
-/* Пусть главная ось горизонтальна. Куда будет направлена поперечная ось?*/
-Сверху вниз
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 600px;
+    height: 300px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
 /*2*/
-/*Пусть главная ось вертикальна. Куда будет направлена поперечная ось?*/
-Слева на право
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
 /*3*/
-/*Пусть поперечная ось направлена направо. Куда в таком случае может быть направлена главная ось?*/
-вертикально
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    width: 600px;
+    height: 300px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
 /*4*/
-/*Пусть поперечная ось направлена вниз. Куда в таком случае может быть направлена главная ось?*/
-горизонтально
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 600px;
+    height: 300px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
 /*5*/
-/*Может ли поперечная ось быть направлена справа налево?*/
-Да
-/*6*/
-/*Может ли поперечная ось быть направлена снизу вверх?*/
-Да
-/*7*/
-/*Пусть свойство flex-direction имеет значение row. Куда будет направлена главная ось? Куда будет направлена поперечная ось?*/
-главная- слева направо поперечная-вертикально
-/*8*/
-/*Пусть свойство flex-direction имеет значение column. Куда будет направлена главная ось? Куда будет направлена поперечная ось?*/
-главная -сверху вниз поперечная-горизонтально
-/*9*/
-/*Пусть свойство flex-direction имеет значение row-reverse. Куда будет направлена главная ось? Куда будет направлена поперечная ось?*/
-главная -справа налево,
-поперечная вертикально
-/*10*/
-/*Пусть свойство flex-direction имеет значение column-reverse. Куда будет направлена главная ось? Куда будет направлена поперечная ось?*/
-главная- снизу вверх,
-горизонтально
+.parent {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
