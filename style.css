@@ -1,11 +1,16 @@
 .parent {
     border: 1px solid red;
-}
-
-.parent img {
-    float: left;
+    text-align: justify;
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 300px;
+    left: 500px;
 }
 
 .diana {
-    clear: both;
+    float: right;
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
 }
