@@ -1,26 +1,94 @@
 /*1*/
-.parent {
+#menu {
+    display: flex;
+}
+
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: #1437AD;
+    border: 1px solid #1437AD;
+    background-color: rgb(250, 46, 46);
+}
+
+#menu a:hover {
+    color: blue;
+    border: 1px solid blue;
+    background-color: #f03ac2;
+}
+
+#menu a:hover,
+#menu a.active {
+    color: blue;
+    border: 1px solid blue;
+    background-color: #f1deeb;
+}
+
+/*2*/
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100px;
+    height: 40px;
+}
+
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: #1437AD;
+    border: 1px solid #1437AD;
+    background-color: #c41d8f;
+}
+
+#menu a:hover {
+    color: blue;
+    border: 1px solid blue;
+    background-color: #c41d8f;
+}
+
+#menu a:hover,
+#menu a.active {
+    color: blue;
+    border: 1px solid blue;
+    background-color: #f1deeb;
+}
+
+/*3*/
+#menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 200px;
-    border: 2px solid rgb(233, 35, 151);
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100px;
+    height: 40px;
 }
 
-.diana {
-    width: 50px;
-    height: 50px;
-    border: 2px solid blue;
+#menu a {
+    margin-right: 5px;
+    padding: 10px;
+    font: 15px Arial;
+    text-decoration: none;
+    color: #1437AD;
+    border: 1px solid #1437AD;
+    background-color: #9c114b;
 }
 
-.elem {
-    order: 1;
-    border: 2px solid red;
+#menu a:hover {
+    color: blue;
+    border: 1px solid blue;
+    background-color: #f03ac2;
 }
 
-.elem {
-    order: -1;
-    border: 2px solid red;
+#menu a:hover,
+#menu a.active {
+    color: blue;
+    border: 1px solid blue;
+    background-color: hsl(319, 89%, 31%);
 }
