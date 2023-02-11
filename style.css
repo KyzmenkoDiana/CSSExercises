@@ -1,9 +1,10 @@
 /*1*/
 .parent {
     width: 1350px;
-    height: 150px;
+    height: 300px;
     border: 2px solid rgb(243, 51, 141);
     text-align: justify;
+    flex-direction: row-reverse;
 }
 
 .diana {
@@ -11,7 +12,6 @@
     width: 100px;
     height: 100px;
     border: 2px solid blue;
-    margin: 15px;
 }
 
 .diana1 {
@@ -20,18 +20,55 @@
 
 /*2*/
 .parent {
-    width: 1350px;
-    height: 150px;
-    border: 2px solid rgb(243, 51, 141);
-    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
 }
 
 .diana {
-    float: right;
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
+.diana1 {
+    clear: both;
+}
+
+/*3*/
+.parent {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(243, 41, 108);
+}
+
+.diana {
     width: 100px;
     height: 100px;
     border: 2px solid blue;
-    margin: 15px;
+}
+
+.diana1 {
+    clear: both;
+}
+
+/*4*/
+.parent {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 600px;
+    height: 600px;
+    border: 2px solid rgb(243, 41, 108);
+}
+
+.diana {
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
 }
 
 .diana1 {
