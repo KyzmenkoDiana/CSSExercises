@@ -1,10 +1,11 @@
 /*1*/
 .parent {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: flex-end;
+    align-items: flex-end;
     width: 600px;
-    height: 300px;
+    height: 500px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -17,8 +18,9 @@
 /*2*/
 .parent {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
     width: 600px;
     height: 500px;
     border: 2px solid rgb(233, 35, 151);
@@ -33,10 +35,11 @@
 /*3*/
 .parent {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
     width: 600px;
-    height: 300px;
+    height: 500px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -49,10 +52,11 @@
 /*4*/
 .parent {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
     width: 600px;
-    height: 300px;
+    height: 500px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -65,8 +69,46 @@
 /*5*/
 .parent {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
+/*6*/
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(233, 35, 151);
+}
+
+.diana {
+    width: 100px;
+    height: 70px;
+    border: 2px solid blue;
+}
+
+/*7*/
+/*6*/
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
     width: 600px;
     height: 500px;
     border: 2px solid rgb(233, 35, 151);
