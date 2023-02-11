@@ -1,13 +1,13 @@
 div {
-    border: 2px solid red;
     text-align: justify;
+    border: 2px solid red;
 }
 
 .diana1 {
-    border: 2px solid green;
+    color: blue;
+    border: 1px solid red;
 }
 
 img {
-    float: right;
-    opacity: 0.5;
+    float: left;
 }
