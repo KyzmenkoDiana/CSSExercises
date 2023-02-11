@@ -1,11 +1,11 @@
 /*1*/
 .parent {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 600px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -13,16 +13,17 @@
     width: 100px;
     height: 70px;
     border: 2px solid blue;
+    margin-inline: 0.1px;
 }
 
 /*2*/
 .parent {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     width: 600px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -30,16 +31,17 @@
     width: 100px;
     height: 70px;
     border: 2px solid blue;
+    margin-inline: 0.1px;
 }
 
 /*3*/
 .parent {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
     width: 600px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -52,11 +54,11 @@
 /*4*/
 .parent {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 600px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -69,11 +71,11 @@
 /*5*/
 .parent {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 600px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgb(233, 35, 151);
 }
 
@@ -86,31 +88,11 @@
 /*6*/
 .parent {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     width: 600px;
-    height: 500px;
-    border: 2px solid rgb(233, 35, 151);
-}
-
-.diana {
-    width: 100px;
-    height: 70px;
-    border: 2px solid blue;
-}
-
-/*7*/
-/*6*/
-.parent {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-end;
-
-    width: 600px;
-    height: 500px;
+    height: 400px;
     border: 2px solid rgb(233, 35, 151);
 }
 
