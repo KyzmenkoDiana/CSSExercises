@@ -1,13 +1,11 @@
-div {
-    text-align: justify;
-    border: 2px solid red;
-}
-
-.diana1 {
-    color: blue;
+.parent {
     border: 1px solid red;
 }
 
-img {
+.parent img {
     float: left;
+}
+
+.diana {
+    clear: both;
 }
